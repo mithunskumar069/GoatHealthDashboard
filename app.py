@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_lottie import st_lottie
+
 import json
 
 st.set_page_config(page_title="Goat Health IoT & ML", layout="wide")
@@ -128,3 +128,4 @@ elif page == "Future Scope":
     🔷 Automated medicine planner  
     """)
     st.markdown("</div>", unsafe_allow_html=True)
+
